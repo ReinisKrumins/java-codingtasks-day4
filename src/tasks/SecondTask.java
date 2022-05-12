@@ -16,7 +16,7 @@ public class SecondTask
         System.out.println("*Second algorithm that counts total words and unique words*");
         UniqueWordsInAString(Text.TEXT);
 
-        System.out.println("*Thrid algorithm that counts unique words*");
+        System.out.println("*Third algorithm that counts unique words*");
         String[] words = Text.TEXT.split(" ");
 
         /*
@@ -27,7 +27,7 @@ public class SecondTask
         int counter = 0;
         for(String s:uniqueWords)
             counter++;
-        System.out.println(counter);
+        System.out.println("Unique words in text: " + counter);
 
     }
     public final class Text
