@@ -1,5 +1,7 @@
 package tasks;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.StringTokenizer;
 
 public class SecondTask
@@ -7,12 +9,21 @@ public class SecondTask
     public static void main(String[] args)
     {
 
-        System.out.println("*First algorithm*");
+        System.out.println("*First algorithm that counts total words*");
         WordsInAString w = new WordsInAString(Text.TEXT);
         w.stringLength();
 
-        System.out.println("*Second algorithm*");
+        System.out.println("*Second algorithm that counts total words and unique words*");
         UniqueWordsInAString(Text.TEXT);
+
+        System.out.println("*Thrid algorithm that counts unique words*");
+        String[] words = Text.TEXT.split(" ");
+
+        HashSet<String> uniqueWords = new HashSet<String>(Arrays.asList(words));
+        int counter = 0;
+        for(String s:uniqueWords)
+            counter++;
+        System.out.println(counter);
 
     }
     public final class Text
