@@ -19,6 +19,10 @@ public class SecondTask
         System.out.println("*Thrid algorithm that counts unique words*");
         String[] words = Text.TEXT.split(" ");
 
+        /*
+            Code from ->
+            https://www.tutorialkart.com/java/java-program-find-unique-words-in-a-string/
+         */
         HashSet<String> uniqueWords = new HashSet<String>(Arrays.asList(words));
         int counter = 0;
         for(String s:uniqueWords)
