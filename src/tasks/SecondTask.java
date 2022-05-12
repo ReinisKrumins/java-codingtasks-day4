@@ -73,7 +73,7 @@ public class SecondTask
                 processedInput += c;
                 currentWord    += c;
             }
-            else // Else it adds '#' simbol in blank space and then increments wordCount
+            else // Else it adds '#' symbol in blank space and then increments wordCount
             {
                 processedInput += token;
                 wordCount++;
