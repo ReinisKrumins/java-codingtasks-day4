@@ -1,10 +1,9 @@
-package firstTask;
+package tasks;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Main {
+public class FirstTask {
 
     public static void main(String[] args) {
 
